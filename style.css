@@ -51,7 +51,7 @@ nav h3{
 .banner{
     height: 652px;
     background-image: url("assets/Hero-bg.png");
-    padding: 35px 420px;
+     padding: 35px 280px; 
 }
 
 .banner-content{
@@ -106,9 +106,8 @@ nav h3{
 .web-dev-container{
     /* background-color: #D9E0E8; */
     /* opacity: 5%; */
-    width: 1440px;
     height: 1393px;
-    margin: 100px 230px ;
+    margin: 100px 55px ;
     padding: 80px 250px;
     box-shadow: 0px, 4px, 4px, 0px, #000000;
 }
@@ -169,7 +168,7 @@ nav h3{
 .inspiration-container{
     width: 1140px;
     height: 775px;
-    margin-left: 380px;
+    margin-left: 200px;
 }
 
 .inspiration-title{
@@ -198,7 +197,7 @@ nav h3{
     width: 1140px;
     height: 460px;
     margin-top:160px;
-    margin-left: 380px;
+    margin-left: 200px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -240,7 +239,7 @@ footer{
 .support-container{
     width: 1140px;
     height: 313px;
-    margin-left: 380px;
+    margin-left: 200px;
     margin-top: 60px;
     text-align: center;
     display: flex;
