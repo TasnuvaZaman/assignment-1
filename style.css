@@ -11,6 +11,7 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 /* shared style */
@@ -20,7 +21,14 @@
     font-size: 20px;
     background-color: transparent;
     border-radius: 8px;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 0.7);
+    cursor: pointer;
+}
+
+.heading-style{
+    font-size: 32px; 
+    font-weight: bold; 
+    margin-bottom: 25px;
 }
 
 /* Header style */
@@ -91,4 +99,196 @@ nav h3{
     border-radius: 8px;
     background-color: #0D1321;
     border: none;
+    cursor: pointer;
+}
+
+/* Main web dev part style */
+.web-dev-container{
+    /* background-color: #D9E0E8; */
+    /* opacity: 5%; */
+    width: 1440px;
+    height: 1393px;
+    margin: 100px 230px ;
+    padding: 80px 250px;
+    box-shadow: 0px, 4px, 4px, 0px, #000000;
+}
+
+.web-dev-content{
+    width: 946px;
+    height: 1233px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.web-dev-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.web-dev-card-container{
+    width: 946px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.web-dev-card{
+    width: 946px;
+    height: 346px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 42px;
+    
+}
+
+.web-dev-card-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-h{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+}
+
+.card-p{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 26px;
+}
+
+/* Inspiration style part */
+
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin-left: 380px;
+}
+
+.inspiration-title{
+    text-align: center;
+    padding: 25px;
+}
+
+.inspiration-vid{
+    width: 1140px;
+    height: 600px;
+    margin-top: 50px;
+    border: 1px solid rgba(13, 19, 33, 0.2);;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.inspiration-vid iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* target part style */
+
+.target{
+    width: 1140px;
+    height: 460px;
+    margin-top:160px;
+    margin-left: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.target-title{
+    text-align: center;
+}
+
+.target-card-container{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-card{
+    padding: 50px;
+    gap: 20px;
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}  
+
+.target-card img, h1, p{
+    margin-bottom: 20px;
+}
+
+/* footer styles */
+
+footer{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.support-container{
+    width: 1140px;
+    height: 313px;
+    margin-left: 380px;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    border-radius: 16px;
+}
+
+.support-inputs{
+    width: 684px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.support-inputs textarea{
+    width: 548px;
+    height:57;
+    padding: 14px 19px 20px 19px;
+    color: grey;
+    font-size: 20px;
+}
+
+.support-inputs button{
+    width: 120px;
+    height: 57px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-container{
+    height: 100px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 30px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px 0px 200px;
 }
